@@ -1,0 +1,13 @@
+{
+  "name": "mi-monorepo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "pnpm --filter ./packages/* run build",
+    "test": "pnpm --filter ./packages/* run test"
+},
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
